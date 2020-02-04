@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="about-content">
+        <div class="intro-text">
+            <p>
+                Sou engenheiro mecânico de formação, mas apaixonado por programação, computação e design há muito tempo.                 
+            </p>
+            <br>
+            <p>
+                Estudo há alguns anos desenvolvimento python para computação cientifica e análise de dados e instrumentação didática de experimentos de engenharia com Arduino. 
+
+            </p>
+            <br>
+            <p>
+                Contudo recentemente tenho voltado minha atenção para o desenvolvimento front end de aplicações web, utilizando HTML, CSS, JS, a biblioteca ReactJS e o ambiente de desenvolvimento NodeJS.
+            </p>        
+        </div>
+        <div class="tec-div">
+            <p>Tecnologias</p>
+            <div class="tec-icons">
+                <ul class="tec-list">
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-html5.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-css3.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-javascript.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-arduino.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-python.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-react.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon awesome-node-js.svg' %}" alt=""></li>
+                    <li class="tec-item"><img src="{% static 'images/Icon simple-mongodb.svg' %}" alt=""></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
